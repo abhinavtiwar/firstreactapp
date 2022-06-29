@@ -42,6 +42,9 @@ const Header=({username,darkTheme,setDarkTheme}) =>{
       <NavLink className="nav-link" to="/chat">chat</NavLink>
       </li>
       <li className="nav-item">
+      <NavLink className="nav-link" to="/chat">chatapp</NavLink>
+      </li>
+      <li className="nav-item">
      <Switch
       checked={darkTheme}
      onChange={(e, v) =>{setDarkTheme(v);
